@@ -28,6 +28,7 @@
   // - Date
   // - RegExp
   // - Error
+  // 
 
   const array = [1, 2, 3];
 

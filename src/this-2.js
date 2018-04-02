@@ -117,6 +117,9 @@ foo.call(obj);
 
 function foo() {
   console.log(this.length);
+  this.a = 12;
+  console.log(this.a);
+  console.log(this.valueOf());
 }
 
 const string = 'string';
